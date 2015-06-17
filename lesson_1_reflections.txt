@@ -62,7 +62,10 @@ LESSON 2:
 What happens when you initialize a repository? Why do you need to do it?
     the folder .git is created, making my folder a repository.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    It allows to perform several changes in a file, upload a file to be put in the git, in order to create a commit at once.
 
+    
 
 
 
@@ -86,4 +89,4 @@ Show the commits made in this repository, starting with the most recent.
 
 git init:   Initializes a new repository
 git status: Show the files that have been changed
-git add:    Add the files to be tracked
+git add:    Add the files to be tracked into an intermediate stage, the staging area, that prepares the files to update the commint at once
